@@ -15,4 +15,4 @@ By combining HTML and CSS, we can create simple yet functional websites with str
 > **Note:** This website is a prototype and does not reflect a live, fully functional website. It serves as a demonstration of web development skills and the potential of a Piscis Aquarium online presence.
 
 ## Link to a website
-[https://piscisaquarium.netlify.app/home.html](Click into website)
+[Click into website](https://piscisaquarium.netlify.app/home.html)
