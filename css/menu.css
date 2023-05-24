@@ -1,0 +1,80 @@
+@font-face {
+    font-family: 'Inter';
+    src: url('./font/inter/Inter-Regular.woff2') format('woff2'),
+        url('./font/inter/Inter-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+*{scroll-behavior: smooth;}
+.ktk{
+    width: 100%;
+    min-width: 100vh;
+    box-sizing: border-box;
+    padding-left: 8%;
+    padding-right: 8%;
+    padding-top: 0.2%;
+    overflow: hidden;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+  }
+  
+.menu{
+    width: 100%;
+    display: flex;
+    align-items: center;
+}
+  
+.Piscis{
+    width: 20%;
+    margin: 30px 0;
+}
+
+.burger{
+    width: 2%;
+    cursor: pointer;
+}
+/* .burger:hover{
+    background-color: rgb(255, 255, 255);
+} */
+nav{
+    flex: 2;
+    text-align: right;
+}
+nav ul li {
+      list-style: none;
+      display: inline-block;
+      margin-right: 40px;
+}
+nav ul li a {
+      text-decoration: none;
+      color: rgb(114, 114, 114);
+      font-size: 0.91vw;
+      font-family: 'Inter';
+}
+.active {
+    color:white;
+    font-weight: bold;
+}
+nav ul li a:hover {
+    color: rgb(255, 255, 255);
+}
+
+.footer {
+    position: relative;
+    margin-top: 200px;
+    display: block;
+    padding: 15px;
+    background-color: rgb(0, 119, 255);
+}
+.kol{
+    display: flex;
+    justify-content: space-between;
+}
+.teks{
+    font-family: 'inter';
+    color: white;
+    background-color: rgb(0, 119, 255);
+
+}

@@ -1,0 +1,148 @@
+*{
+  margin: 0;
+  padding: 0;
+  /* -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none; */
+}
+body{
+  background-color: black;
+}
+@font-face {
+  font-family: 'Inter';
+  src: url('./font/inter/Inter-Regular.woff2') format('woff2'),
+      url('./font/inter/Inter-Regular.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'SF PRO BOLD';
+  src: url('./font/sf/sfdisplay.woff2') format('woff2'),
+      url('./font/sf/sfdisplay.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+.konten1{
+  margin-top: 30px;
+}
+.konten1 h1{
+  text-align: center;
+  margin-top: 95px;
+  margin-bottom: 95px;
+  color: white;
+  font-family: 'SF PRO BOLD';
+  font-size: 4vw;
+}
+.konten1 img {
+  margin: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 50%;
+  height: auto;
+  border: none;
+  border-radius: 25px;
+  margin-top: 4%;
+}
+.form{
+  display: grid;
+  margin-left: 25%;
+  margin-right: 25%;
+}
+.form label{
+  color: white;
+  font-family: 'Inter';
+  font-size: 18px;
+  margin-left: 1%;
+}
+.form ::placeholder{
+  font-family: 'Inter';
+  font-size: 18px;
+  color: rgb(0, 119, 255);
+}
+.form input{
+  border-radius: 15px;
+  min-width: auto;
+  min-height: 45px;
+  border-style: none;
+  color:white;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  padding: 2%;
+  background-color: rgb(0, 26, 51);
+  font-family:'Inter';
+  font-size: 18px;
+}
+
+.form select{
+  min-width: auto;
+  min-height: 45px;
+  margin-top: 20px;
+  padding-left: 2%;
+  margin-bottom: 20px;
+  border-radius: 15px;
+  padding-top:3%;
+  padding-bottom:3%;
+  border-style: none;
+  border-color: rgb(0, 119, 255);
+  background-color: rgb(0, 26, 51);
+  color:white;
+  font-size: 17px;
+}
+
+.form option{
+  background-color: black;
+  color:white;
+  font-size:17px;
+}
+
+.insurance{
+  display:flex;
+  align-items: center;
+}
+.insurance input{
+  margin-left: 5px;
+  margin-right: 15px;
+  transform:scale(1.4);
+  border-radius: 3px;
+  border-width: thin;
+}
+
+.insurance p{
+  font-size: 15px;
+  color:white;
+  font-family: 'Inter';
+}
+.book{
+  margin-top: 15px;
+  display: flex;
+  justify-content: center;
+  text-decoration:none;
+}
+.book button{
+  /* margin: 25px; */
+  border-radius: 10px;
+  min-width: 105px;
+  min-height: 50px;
+  border-color: rgb(0, 119, 255);
+  border-style:  solid;
+  background-color: black;
+  border-width: 2px;
+}
+
+.book a button{
+  cursor: pointer;
+  color:white;
+  font-family: 'inter';
+  text-decoration:none;
+  font-size: 30px;
+}
+.book button:hover{
+  background-color: rgb(0, 119, 255);
+}
+
+/* Use at least 5 kinds of suitable components for the form page. */
+/* text,email,dropdown,date,checkbox,button*/

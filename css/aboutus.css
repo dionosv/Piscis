@@ -1,0 +1,78 @@
+*{
+  margin: 0;
+  padding: 0;
+  /* -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none; */
+}
+body{
+  background-color: black;
+}
+
+@font-face {
+  font-family: 'Inter';
+  src: url('./font/inter/Inter-Regular.woff2') format('woff2'),
+      url('./font/inter/Inter-Regular.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'SF PRO BOLD';
+  src: url('./font/sf/sfdisplay.woff2') format('woff2'),
+      url('./font/sf/sfdisplay.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+.konten1{
+  margin-top: 30px;
+}
+
+.banner img{
+  margin: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 50%;
+  height: auto;
+  border: none;
+  border-radius: 25px;
+  margin-top: 4%;
+}
+
+.information{
+  color :white; 
+  margin-top: 8%;
+}
+
+.information h1{
+  font-family: 'SF PRO BOLD';
+  font-size: 45px;
+  margin-top: 1%;
+  margin-left: 25%;
+  margin-right: 25%;
+
+}
+
+.information p{
+  margin-top: 1.11%;
+  font-family: 'Inter';
+  font-size: 17px;
+  margin-left: 25%;
+  margin-right: 25%;
+  text-align: justify ;
+  /* margin-bottom: 2%; */
+}
+
+.information a:active{
+  color:rebeccapurple;
+}
+
+.q{
+  margin-top: 2%;
+  margin-bottom: 2%;
+}
+

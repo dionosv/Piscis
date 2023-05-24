@@ -1,0 +1,97 @@
+@font-face {
+    font-family: 'Inter';
+    src: url('./font/inter/Inter-Regular.woff2') format('woff2'),
+        url('./font/inter/Inter-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+  }
+  
+  @font-face {
+    font-family: 'SF PRO BOLD';
+    src: url('./font/sf/sfdisplay.woff2') format('woff2'),
+        url('./font/sf/sfdisplay.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+  }
+
+  *{
+    margin: 0;
+    padding: 0;
+    /* -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none; */
+  }
+body{background-color: black;}
+
+.all{
+    margin-top: 30px;
+    margin-left: 24%;
+    margin-right: 24%;
+}
+.informations{
+    margin:3%;
+    margin-top:85px;
+    margin-bottom: 55px;
+}
+.informations h1{
+    font-family: 'SF PRO BOLD';
+    font-size: 45px;
+    color :white;
+}
+
+.informations h2{
+    font-size: 18px;
+    font-family: 'Inter';
+    color:white
+}
+.row{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 2%;
+    margin-bottom: 2%;
+}
+.tile {
+    margin:3%;
+}
+.tile img{
+    /* width: 280px; */
+    width: 14.5vw;
+    height: auto;
+    border-radius: 10px;
+    transition: transform .69s;
+}
+.tile img:hover{
+    position:relative;
+    transform: scale(1.25);
+}
+
+.tile h2{
+    margin-top:15px;
+    font-family: "SF PRO BOLD";
+    font-size: 1.25vw;
+    color:white;
+}
+
+.tile p{
+    margin-top: 3%;
+    font-family: "Inter";
+    color:white;
+    /* font-size : small; */
+    font-size: 0.8vw;
+    text-align: justify;
+}
+
+.animal img{
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+    height: auto;
+    border: none;
+    border-radius: 25px;
+    margin-top: 4%;
+  }
